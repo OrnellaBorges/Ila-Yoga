@@ -1,0 +1,205 @@
+/*RESET*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+}
+
+/*RESET*/
+
+/* ====================================================== */
+/* ======== Chargement des polices non standards ======== */
+/* ====================================================== */
+@font-face {
+    font-family: "Kaushan";
+    src: url("../fonts/Kaushan_Script/KaushanScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+/* ====================================================== */
+/* =============== Styles globaux de base =============== */
+/* ====================================================== */
+
+/*HEADER*/
+
+header{
+    background-image: url("../img/fond.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    font-family: "Kaushan";
+    text-align: center;
+    color: white;
+}
+
+header p{
+    background-color: transparent;
+    font-family: "Playfair";
+}
+
+header p:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+header h1{
+    color: white;
+    font-family: "Kaushan";
+    padding: 10% 0 20%;
+    font-size: 2em;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+nav:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+nav ul {
+    width: 70%;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items:center;
+    padding: 2%;
+    font-family: "Kaushan";
+    margin: 0 auto;
+}
+
+
+nav ul p:hover{
+    transition: 1s;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+nav a:hover{
+    transform: scale(1.1);
+/*transition: ease 2s; */
+    transition: linear 0.5s;
+/*zoom: 1.3; */
+}
+
+
+nav ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li a{
+    color: white;
+}
+
+/*MAIN*/
+
+section{
+    padding: 0 2%;
+} 
+
+.first-section, .second-section{
+    font-family:"Playfair";
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cours{
+    border-bottom: 1px solid black;
+}
+#position{
+    flex-direction: row-reverse;
+}
+
+.home-img{
+    width: 7rem;
+}
+
+section article .text h2{
+    font-family:"Playfair";
+    text-align: center;
+    padding: 2% 0;
+}
+
+.text{
+    padding: 0 2% 2%;
+}
+
+.second-section{
+    background-image: url("../img/background_section.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.second-section article{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    padding: 2%;
+}
+
+.home-image{
+    width: 90%;
+}
+
+.home h2 {
+    padding-bottom: 3%;
+}
+
+.home p {
+    padding-top: 3%;
+}
+
+.google-map{
+    width: 100%;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    /* offset-x | offset-y | color */ 
+    padding: 5%;
+    background-color: rgb(205, 160, 247);
+    font-size: 0.8em;
+}
+
+footer img {
+    margin-bottom: 2%;
+    width: 50% ;
+}
