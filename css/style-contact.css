@@ -1,3 +1,60 @@
-/*MAIN CONTACT*/
+/*RESET*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+}
+
+/*RESET*/
+
+/* ====================================================== */
+/* ======== Chargement des polices non standards ======== */
+/* ====================================================== */
+@font-face {
+    font-family: "Kaushan";
+    src: url("../fonts/Kaushan_Script/KaushanScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+/* ====================================================== */
 
 
+/*MAIN TABLE*/
+
+h2{
+    text-align: center;
+    font-family: "Playfair";
+    padding: 2%;
+}
+
+table{
+    border: 2px solid rgb(106, 105, 105);
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid rgb(106, 105, 105);
+}
+
+.table-title{
+    background-color: purple;
+}
+
+/*MAIN FORM*/
