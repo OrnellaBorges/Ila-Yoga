@@ -44,6 +44,11 @@ h2{
     padding: 2%;
 }
 
+#table, #form{
+    width: 90%;
+    margin: 0 auto;
+}
+
 table{
     border: 2px solid rgb(106, 105, 105);
     border-collapse: collapse;
